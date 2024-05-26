@@ -11,7 +11,7 @@ This document outlines the steps to build and deploy a Python application using 
 2. **Building the Docker Image**: Run the following command to build the Docker image:
    ```sh
    docker build -t flask-app .
-3. **Deploying the containers**: Run the following command to deploy the containers:
+3. **Deploying the containers**: Run the following command to deploy the containers and run in detach mode:
    ```sh
    docker-compose up -d
 4. **Accessing the application**: Once the containers are deployed, access the application using the public IP address of your EC2 instance. Use the following endpoints to test the application:
