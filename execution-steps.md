@@ -29,4 +29,5 @@ You can Access the Hello World Endpoint like:
 http://public-ip-address-of-instance:5000/
 
 You can Access the Status Endpoint like:
+```sh
 http://public-ip-address-of-instance:5000/status
