@@ -9,9 +9,9 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 context = {'start_time': datetime.now()}
 
-app_host = getenv('APP_HOST', '127.0.0.1')
+app_host = getenv('APP_HOST', '0.0.0.0')
 app_port = int(getenv('APP_PORT', 5000))
-redis_host = getenv('REDIS_HOST', '127.0.0.1')
+redis_host = getenv('REDIS_HOST', '0.0.0.0')
 redis_port = int(getenv('REDIS_PORT', 6379))
 connection_string = getenv('DATABASE_URI', 'sqlite:////tmp/test.db')
 
