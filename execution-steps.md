@@ -25,9 +25,9 @@ This document outlines the steps to build and deploy a Python application using 
 ## Testing Steps
 
 You can Access the Hello World Endpoint like:
-```sh
-http://public-ip-address-of-instance:5000/
+   ```sh
+   http://public-ip-address-of-instance:5000/
 
 You can Access the Status Endpoint like:
-```sh
-http://public-ip-address-of-instance:5000/status
+   ```sh
+   http://public-ip-address-of-instance:5000/status
